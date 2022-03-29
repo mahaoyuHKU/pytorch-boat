@@ -3,9 +3,9 @@
 
 This is an unofficial implementation of the paper BOAT: Bilateral Local Attention Vision Transformer. 
 
-The [Swin variant](https://github.com/mahaoyuHKU/pytorch-boat/tree/main/Swin) is based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+The [Swin variant](https://github.com/mahaoyuHKU/pytorch-boat/tree/main/BOAT-Swin) is based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
 
-The [CSwin variant](https://github.com/mahaoyuHKU/pytorch-boat/tree/main/CSwin) is based on [CSwin Tranformer](https://github.com/microsoft/CSWin-Transformer)
+The [CSwin variant](https://github.com/mahaoyuHKU/pytorch-boat/tree/main/BOAT-CSwin) is based on [CSwin Tranformer](https://github.com/microsoft/CSWin-Transformer)
 
 Please check corresponding folders for more installation, training and evaluation instructions.
 
