@@ -53,7 +53,7 @@ bash train.sh 8 --data <data path> --model CSWin_64_24322_small_224 -b 256 --lr 
 bash train.sh 8 --data <data path> --model CSWin_96_24322_base_224 -b 128 --lr 1e-3 --weight-decay .1 --amp --img-size 224 --warmup-epochs 20 --model-ema-decay 0.99992 --drop-path 0.5
 ```
 
-# Pre-trained models
+## Pre-trained models
 
 [BOAT-CSwin-Tiny](https://www.dropbox.com/s/rsmtu6r0v2lt0y5/cswin_tiny.pth.tar?dl=0)
 
