@@ -49,12 +49,6 @@ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --maste
 
 [BOAT-Swin-Base](https://www.dropbox.com/s/70hr7h0smcr0gr9/base.pth?dl=0)
 
-[BOAT-CSwin-Tiny](https://www.dropbox.com/s/rsmtu6r0v2lt0y5/cswin_tiny.pth.tar?dl=0)
-
-[BOAT-CSwin-Small](https://www.dropbox.com/s/cnl00d1faxxoi19/cswin_small.pth.tar?dl=0)
-
-[BOAT-CSwin-Base](https://www.dropbox.com/s/92sr8r8zhng1mqg/cswin_base.pth.tar?dl=0)
-
 
 # If you use this code for your research, please consider citing:
 
