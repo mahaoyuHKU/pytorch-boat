@@ -3,10 +3,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cswin-transformer-a-general-vision/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=cswin-transformer-a-general-vision)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cswin-transformer-a-general-vision/semantic-segmentation-on-ade20k-val)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k-val?p=cswin-transformer-a-general-vision)
 
-This repo is the official implementation of ["CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows"](https://arxiv.org/pdf/2107.00652.pdf). 
-
-## Introduction
-
+This implementation is based on the official implementation of ["CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows"](https://arxiv.org/pdf/2107.00652.pdf). 
 
 ## Requirements
 
@@ -25,6 +22,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 ```
 
 Data prepare: ImageNet with the following folder structure, you can extract imagenet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
+Please follow the train-test splits of CSwin.
 
 ```
 │imagenet/
@@ -54,10 +52,6 @@ bash train.sh 8 --data <data path> --model CSWin_64_24322_small_224 -b 256 --lr 
 ```
 bash train.sh 8 --data <data path> --model CSWin_96_24322_base_224 -b 128 --lr 1e-3 --weight-decay .1 --amp --img-size 224 --warmup-epochs 20 --model-ema-decay 0.99992 --drop-path 0.5
 ```
-
-
-
-
 
 ## Acknowledgement
 This is developped based on CSWin Transformer
