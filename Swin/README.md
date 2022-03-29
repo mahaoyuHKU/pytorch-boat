@@ -1,15 +1,14 @@
-# BOAT: Bilateral Local Attention Vision Transformer
+# Swin-BOAT
 
-
-This is develppped based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+This is developed based on the official version of [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
 We only change ./model/swin_transformer.py to ./model/boat_swin_transformer.py and keep other codes unchanged.
 
 
-# Start
+## Start
 
 Please refer to [Start for Swin](https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md) for installing the prerequisite.
 
-# Training
+## Training
 
 `BOAT-Swin-T`:
 
@@ -32,7 +31,7 @@ python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.
 --cfg configs/swin_base_patch4_window7_224.yaml --data-path <imagenet-path> --batch-size 128 \
 ```
 
-# Evaluation
+## Evaluation
 
 To evaluate a pre-trained `BOAT-Swin Transformer` on ImageNet val, run:
 
@@ -41,7 +40,7 @@ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --maste
 --cfg <config-file> --resume <checkpoint> --data-path <imagenet-path> 
 ```
 
-# Pre-trained models
+## Pre-trained models
 
 [BOAT-Swin-Tiny](https://www.dropbox.com/s/xa94uewsrvjglnn/tiny.pth?dl=0)
 
@@ -49,3 +48,5 @@ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --maste
 
 [BOAT-Swin-Base](https://www.dropbox.com/s/70hr7h0smcr0gr9/base.pth?dl=0)
 
+## Acknowledgement
+This is developed based on the official version of [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
