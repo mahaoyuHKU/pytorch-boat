@@ -1,7 +1,7 @@
 # BOAT: Bilateral Local Attention Vision Transformer
 
 
-This is develppped based on [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+This is an unofficial implementation of the paper
 We only change ./model/swin_transformer.py to ./model/boat_swin_transformer.py and keep other codes unchanged.
 
 
