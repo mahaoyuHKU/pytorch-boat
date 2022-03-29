@@ -49,16 +49,3 @@ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --maste
 
 [BOAT-Swin-Base](https://www.dropbox.com/s/70hr7h0smcr0gr9/base.pth?dl=0)
 
-
-# If you use this code for your research, please consider citing:
-
-```bash
-@article{BOAT,
-  author    = {Tan Yu and Gangming Zhao and Ping Li and Yizhou Yu},
-  title     = {{BOAT:} Bilateral Local Attention Vision Transformer},
-  journal   = {CoRR},
-  volume    = {abs/2201.13027},
-  year      = {2022},
-  url       = {https://arxiv.org/abs/2201.13027},
-}
-```
